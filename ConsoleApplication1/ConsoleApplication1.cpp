@@ -2,10 +2,16 @@
 //
 
 #include "stdafx.h"
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
 
-
-int main()
-{
-    return 0;
+using namespace std;
+int main(){
+	string Ans = "This is ";
+	Ans.append((sizeof(char) == sizeof('c')) ? "C++ program!\n" : "C program!\n");
+	cout << Ans << endl;
+	return 0;
 }
 
