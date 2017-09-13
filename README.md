@@ -13,3 +13,4 @@ Test VS GitHub extension.
 And good sources for quickly learn how to use Markdown on Github: <br>
 > [Mastering Markdown!](https://guides.github.com/features/mastering-markdown/)<br>
 > [GitHub services!](https://services.github.com/)<br>
+> [Markdown Reference](http://commonmark.org/help/tutorial/)<br>
