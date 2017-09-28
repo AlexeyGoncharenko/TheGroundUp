@@ -4,9 +4,9 @@
 #include <stdlib.h>
 
 int main(){
-	std::string Ans = "This is ";
-	Ans.append((sizeof(char) == sizeof('c')) ? "C++ program!\n" : "C program!\n");
-	std::cout << Ans << std::endl;
+	std::string answer = "This is ";
+	answer.append((sizeof(char) == sizeof('c')) ? "C++ program!\n" : "C program!\n");
+	std::cout << answer << std::endl;
 	std::cout << "Compiler's version: " << __cplusplus << std::endl;
 	return EXIT_SUCCESS;
 }
