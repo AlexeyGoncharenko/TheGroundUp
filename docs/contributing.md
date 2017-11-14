@@ -4,9 +4,9 @@
 
 Here are some important resources:
 
-  * //TODO:
-  * //TODO:
-  * //TODO:
+  * // TODO:
+  * // TODO:
+  * // TODO:
 
 ## Testing
 
@@ -20,4 +20,3 @@ Here are some important resources:
 
 // TODO:
 
-Thanks...
