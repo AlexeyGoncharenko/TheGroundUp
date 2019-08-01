@@ -1,12 +1,11 @@
-# VS GitHub extension
-Testing VS GitHub extension, how it works.
+# TempRepo
+Testing any ideas how it works.
 
 ```C++
     #include <iostream>
-    using namespace std;
     int main(int argc, char* argv[]) {
-      cout << "VS Github extension..." << endl;
-      return 0;
+      std::cout << "Under construction..." << std::endl;
+      return EXIT_SUCCESS;
     }
 ```
 
