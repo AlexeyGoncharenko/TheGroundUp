@@ -1,10 +1,13 @@
 # TempRepo
-Testing any ideas how it works.
+> - The worst practices
+> - Don't do that anymore
+> - Testing any ideas how it works.
+ 
 
 ```C++
     #include <iostream>
     int main(int argc, char* argv[]) {
-      std::cout << "Under construction..." << std::endl;
+      std::cout << "There is room for improvement..." << std::endl;
       return EXIT_SUCCESS;
     }
 ```
