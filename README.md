@@ -1,7 +1,7 @@
 # TempRepo
 > - The worst practices
 > - Don't do that anymore
-> - Testing any ideas how it works.
+> - Testing any ideas how does something work.
  
 
 ```C++
