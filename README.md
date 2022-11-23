@@ -1,19 +1,3 @@
-# TempRepo
-> - The worst practices
-> - Don't do that anymore
-> - Testing any ideas how does something work.
- 
-
-```C++
-    #include <iostream>
-    int main(int argc, char* argv[]) {
-      std::cout << "There is room for improvement..." << std::endl;
-      return EXIT_SUCCESS;
-    }
-```
-
-![GitHub Guidelines](https://guides.github.com/images/logo@2x.png)<br>
-Good sources how to use Markdown on Github: <br>
-> [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)<br>
-> [GitHub services](https://services.github.com/)<br>
-> [Markdown Reference](http://commonmark.org/help/tutorial/)<br>
+# Learn C++ Language by book H.Schild "From the ground up"
+* **master** branch - default branch includes any study chapters like folders
+* **temp** branch - for any purpose like test any ideas
