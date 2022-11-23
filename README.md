@@ -1,12 +1,14 @@
-# VS GitHub extension
-Testing VS GitHub extension, how it works.
+# TempRepo
+> - The worst practices
+> - Don't do that anymore
+> - Testing any ideas how does something work.
+ 
 
 ```C++
     #include <iostream>
-    using namespace std;
     int main(int argc, char* argv[]) {
-      cout << "VS Github extension..." << endl;
-      return 0;
+      std::cout << "There is room for improvement..." << std::endl;
+      return EXIT_SUCCESS;
     }
 ```
 
