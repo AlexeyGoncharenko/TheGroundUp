@@ -1,6 +1,3 @@
-﻿/* That's a temporary repository
- */
-
 #include "stdafx.h"
 #include <string>
 #include <Windows.h>
