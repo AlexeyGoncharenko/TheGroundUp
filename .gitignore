@@ -1,0 +1,35 @@
+﻿# игнорируeм папки и файлы из $(SolutionDir)
+*.sdf
+*.opensdf
+*.suo
+ipch/
+Release/
+Debug/
+
+# игнорируем папки и файлы из $(ProjectDir)
+CHAP1/Debug
+CHAP1/Release
+CHAP2/Debug
+CHAP2/Release
+CHAP4/Debug
+CHAP4/Release
+CHAP5/Debug
+CHAP5/Release
+CHAP6/Debug
+CHAP6/Release
+CHAP7/Debug
+CHAP7/Release
+CHAP8/Debug
+CHAP8/Release
+CHAP9/Debug
+CHAP9/Release
+CHAP10/Release
+CHAP10/Debug
+CHAP11/Release
+CHAP11/Debug
+CHAP12/Release
+CHAP12/Debug
+CHAP13/Release
+CHAP13/Debug
+CHAP14/Release
+CHAP14/Debug
