@@ -1,6 +1,4 @@
-﻿/* That's a temporary repository for testing some ideas.
- * Any description and comments may be absent.
- * But there is room for improvement.
+﻿/* That's a temporary repository
  */
 
 #include "stdafx.h"
