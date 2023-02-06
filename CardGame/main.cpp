@@ -1,6 +1,9 @@
-//#define NDEBUG /* macros for disable all asserts in each file where it's */
-#include "CardGame.h"
+// #define NDEBUG macros for disable all asserts in each file where it's 
+#pragma once
+#include <cstdio>
+#include <ctime>
 #include <cassert>
+#include "CardGame.h"
 
 //prototypes
 void endGame(CardGame* [], const size_t);
@@ -21,13 +24,15 @@ void startGame(const size_t maxNumbGames, const size_t maxNumbParticipants){
 	
 	/*for(CardGame *x : playersArr)
 		x = new CardGame((rand() % maxNumbParticipants) + minNumbParticipants);*/
-	for (int i(0); i < numbGames; i++)
+	for (int i(0); i < numbGames; i++){
 		playersArr[i] = new CardGame((rand() % maxNumbParticipants) + minNumbParticipants);
-	
+	}
 	endGame(playersArr, numbGames);
 }
 
 void endGame(CardGame *arr[], const size_t size){
-	for(int i = 0; i < size; i++) delete arr[i];
+	for(int i(0); i < size; i++){
+		delete arr[i];
+	}	
 	printf("NUMBER PLAYED GAMES: %d\n", size);
 }

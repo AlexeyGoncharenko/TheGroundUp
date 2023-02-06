@@ -1,9 +1,3 @@
-#pragma once
-#include <cstdlib>
-#include <cstdio>
-#include <cstddef>
-#include <ctime>
-
 class CardGame{
 	private:
 		int m_players;
