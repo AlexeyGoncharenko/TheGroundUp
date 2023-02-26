@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include <string>
 #include <Windows.h>
 #include <locale.h>
@@ -105,9 +104,7 @@ int main(int argc, char** argv) {
 		consecutiveOnes.push_back(counter);
 		std::cout << *std::max_element(consecutiveOnes.begin(), consecutiveOnes.end());
 	}
-	
-
-	
+		
 // What Structure object it is. In comparison with Class object.
 // Ex.1
 	struct Person {
